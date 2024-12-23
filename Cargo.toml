@@ -3,4 +3,14 @@ name = "test_rayon"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "test_rayon"
+crate-type = ["lib"]
+
 [dependencies]
+optick = "1.3.4"
+rayon = "1.10.0"
+
+[[bench]]
+harness = false
+name = "fib_bench"
