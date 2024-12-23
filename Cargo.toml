@@ -14,3 +14,6 @@ rayon = "1.10.0"
 [[bench]]
 harness = false
 name = "fib_bench"
+
+[profile.release]
+debug = true
