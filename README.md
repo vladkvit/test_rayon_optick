@@ -1,4 +1,7 @@
-# Running
-`cargo bench`
+# Overview
+This is a demo for https://github.com/rayon-rs/rayon and https://github.com/bombomby/optick-rs not working well together
 
-Load the generated .opt file into Optick.
+# Running
+Run `cargo bench`
+
+Then, load the generated .opt file into Optick.
